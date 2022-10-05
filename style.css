@@ -1,57 +1,52 @@
-/***************
-
-COMMENT
-
-****************/
-body{
-    font-family: "monospace", sans-serif;
+.body{
+    font-family: “monospace”,“sans-serif”;
 }
 .font-primary{
-    color:#00abae
+    color: #00ABAE
 }
 .title-icon{
     font-size: 20px;
     font-weight: bold;
-    
 }
 p{
     font-size: 14px;
-
 }
 h2{
-    font-weight: bold;
     font-size: 23px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
-a.font-black{
+a .font-black{
     color: #000 !important;
 }
-/****************
-ABOUT
-****************/
+.hrline{
+    align-self: center;
+    width: 100%;
+}
+/******************
+About
+******************/
 #about{
-    margin: 60px 30px;
-    
+    margin: 60px auto;
+    max-width: 400px;
     text-align: center;
 }
 #about img{
-    
+    border-radius: 45%;
     width: 120px;
-    border-radius:50%;
-    
-
+    margin-bottom: 10px;
 }
 #about .name{
     font-size: 19px;
 }
 #about .vocation{
     font-size: 17px;
-    color: #A8A8AB;
+    color: #A8A8AE;
     margin-bottom: 10px;
 }
 #about .skills{
     font-size: 14px;
-    color: #00abae;
+    color: #00A8AE;
     margin-bottom: 10px;
 }
 #about .email{
@@ -60,29 +55,22 @@ ABOUT
 }
 #about .icons{
     margin-top: 20px;
-    font-size: 40px;
+    font-size: 30px;
+    color: rgb(0,0,0);
 }
-#about .icons a{
-    color: rgb(10, 9, 9);
+/******************
+Project
+******************/
+#projects{
+    margin: 60px auto;
+    width: 80%;
 }
-/***************
-PROJECTS
-***************/
-#project{
-    margin: 20px auto;
-    width: 100%
-}
-#project h2{
+#projects h2{
     text-align: center;
 }
-#project .card img{
+#projects .card img{
     width: 100%;
-    border-radius:0%;
 }
-#project .card-title{
+#projects .card-title{
     font-weight: bold;
-
-}
-.card-body {
-    text-align: start;
 }
