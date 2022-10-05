@@ -32,9 +32,10 @@ About
     text-align: center;
 }
 #about img{
-    border-radius: 45%;
-    width: 120px;
+    border-radius: 50%;
+    width: 113px;
     margin-bottom: 10px;
+    height: 113px;
 }
 #about .name{
     font-size: 19px;
